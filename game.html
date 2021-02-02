@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<script src="https://kit.fontawesome.com/9bc3dcb3e0.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body onload="startGame()">
+
+
+<script src="canvas.js"></script>
+
+
+<div style="text-align:center;width:480px;margin-left: 400px;">
+  <button onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()"><img src="https://cdn3.iconfinder.com/data/icons/arrows-173/24/arrow-up-512.png" width="20px" alt=""></button><br><br>
+  <button onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()"><i class="fas fa-arrow-left"></i></button>
+  <button onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()"><i class="fas fa-arrow-right"></i></button><br><br>
+  <button onmousedown="movedown()" onmouseup="clearmove()" ontouchstart="movedown()"><img src="https://assets.stickpng.com/images/58f8bcf70ed2bdaf7c128307.png" width="20px" alt=""></button>
+
+</div>
+
+<a href="" id="restartBtn">Restart</a>
+</body>
+</html>
